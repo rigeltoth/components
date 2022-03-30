@@ -1,10 +1,10 @@
 export interface ICarousel {
   id: number;
-  title?: {
+  title: {
       first: string;
       second: string;
   };
-  subtitle?: string;
+  subtitle: string;
   link?: string;
   image: string;
   order?: number;
